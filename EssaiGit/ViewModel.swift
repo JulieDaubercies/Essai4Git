@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class city {
+    
+    var city = "Toulouse"
+    
+}

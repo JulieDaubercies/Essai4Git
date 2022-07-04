@@ -14,6 +14,7 @@
 		37241BE028734B6A00A9174D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37241BDF28734B6A00A9174D /* Assets.xcassets */; };
 		37241BE328734B6A00A9174D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37241BE128734B6A00A9174D /* LaunchScreen.storyboard */; };
 		37241BEB28734C6300A9174D /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37241BEA28734C6300A9174D /* model.swift */; };
+		37241BED28734CDE00A9174D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37241BEC28734CDE00A9174D /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		37241BE228734B6A00A9174D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37241BE428734B6A00A9174D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37241BEA28734C6300A9174D /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		37241BEC28734CDE00A9174D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 		37241BCA28734B6A00A9174D = {
 			isa = PBXGroup;
 			children = (
-				37241BEA28734C6300A9174D /* model.swift */,
 				37241BD528734B6A00A9174D /* EssaiGit */,
 				37241BD428734B6A00A9174D /* Products */,
 			);
@@ -62,6 +63,8 @@
 				37241BD628734B6A00A9174D /* AppDelegate.swift */,
 				37241BD828734B6A00A9174D /* SceneDelegate.swift */,
 				37241BDA28734B6A00A9174D /* ViewController.swift */,
+				37241BEA28734C6300A9174D /* model.swift */,
+				37241BEC28734CDE00A9174D /* ViewModel.swift */,
 				37241BDC28734B6A00A9174D /* Main.storyboard */,
 				37241BDF28734B6A00A9174D /* Assets.xcassets */,
 				37241BE128734B6A00A9174D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37241BED28734CDE00A9174D /* ViewModel.swift in Sources */,
 				37241BDB28734B6A00A9174D /* ViewController.swift in Sources */,
 				37241BD728734B6A00A9174D /* AppDelegate.swift in Sources */,
 				37241BD928734B6A00A9174D /* SceneDelegate.swift in Sources */,
